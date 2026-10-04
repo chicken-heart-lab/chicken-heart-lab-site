@@ -160,6 +160,34 @@
 
 }
 
+.compare-row{
+
+  display:grid;
+
+  grid-template-columns:repeat(2,minmax(0,1fr));
+
+  gap:12px;
+
+  align-items:start;
+
+}
+
+.compare-row .platform-block{
+
+  margin:20px 0;
+
+  min-width:0;
+
+}
+
+.compare-row .suzuri-gallery{
+
+  grid-template-columns:1fr;
+
+  margin:18px 0 0;
+
+}
+
 .platform-block.suzuri .platform-label{
 
   color:#2868ad;
@@ -468,6 +496,8 @@
 
 </div>
 
+<div class="compare-row">
+
   <div class="platform-block suzuri">
 
   <div class="platform-label">SUZURI</div>
@@ -509,6 +539,8 @@
     </figure>
 
   </div>
+
+</div>
 
 </div>
 
